@@ -55,7 +55,7 @@ export type FontStyle = "sans" | "serif" | "mono";
 
 export const personalInfo: PersonalInfo = {
 
-  name: "Xenith Wong (Huang Xi)",
+  name: "Xenith Wong",
 
   profilePicture: "/profile.jpg", // see Step 4 — you must replace this image
 

@@ -25,7 +25,8 @@ export default function AboutSection() {
           />
         )}
         <div className='flex flex-col gap-3'>
-          <h1 className='text-4xl font-semibold'>{personalInfo.name}</h1>
+          <h1 className='text-3xl font-semibold'>{personalInfo.name}</h1>
+          <p className='text-lg text-neutral-500'>Huang Xi (黄曦)</p>
           <h2 className='text-xl font-medium'>
             {personalInfo.role}{' '}
             <a
@@ -71,8 +72,8 @@ export default function AboutSection() {
           <Image
             src={personalInfo.profilePicture}
             alt='profile image'
-            width={100}
-            height={100}
+            width={120}
+            height={120}
             className='hidden md:block object-cover aspect-square'
           />
         )}
