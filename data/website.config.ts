@@ -71,7 +71,7 @@ export const personalInfo: PersonalInfo = {
 
     { name: "GitHub", url: "https://github.com/xenithwong" },
 
-    { name: "LinkedIn", url: "https://www.linkedin.com/in/xenith-wong-887062217/"},
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/xenith-wong-huang-xi"},
 
     
 

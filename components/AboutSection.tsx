@@ -14,14 +14,14 @@ import { Button } from './ui/button';
 export default function AboutSection() {
   return (
     <section className='flex flex-col gap-8'>
-      <div className='flex flex-col gap-8 md:flex-row md:justify-between'>
+      <div className='flex flex-col gap-8 items-center md:items-start md:flex-row md:justify-between'>
         {personalInfo.profilePicture && (
           <Image
             src={personalInfo.profilePicture}
             alt='profile image'
-            width={120}
-            height={120}
-            className='md:hidden sm:block object-cover aspect-square'
+            width={260}
+            height={390}
+            className='md:hidden sm:block object-contain'
           />
         )}
         <div className='flex flex-col gap-3'>
@@ -29,8 +29,10 @@ export default function AboutSection() {
           <p className='text-lg text-neutral-500'>Huang Xi (黄曦)</p>
           <h2 className='text-xl font-medium'>
             {personalInfo.role}{' '}
-            <a
-              href={personalInfo.universityWebsite}
+            
+               <a
+            
+               href={personalInfo.universityWebsite}
               className='hover:underline'
             >
               @{personalInfo.university}
@@ -72,9 +74,9 @@ export default function AboutSection() {
           <Image
             src={personalInfo.profilePicture}
             alt='profile image'
-            width={120}
-            height={120}
-            className='hidden md:block object-cover aspect-square'
+            width={260}
+            height={390}
+            className='hidden md:block object-contain'
           />
         )}
       </div>
